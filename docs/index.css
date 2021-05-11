@@ -18,7 +18,16 @@
     color:inherit;
     text-decoration:none;
   }
-  
+
+  .con{
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .con{
+    widht:1400px;
+  }
+
   .inline-grid {
     font-size:0;
   }
@@ -47,11 +56,11 @@
     color:white;
   }
   
-  .top-bar > div:first-child {
+  .top-bar > .con > div:first-child {
     width:250px;
   }
   
-  .top-bar > div:nth-child(2) {
+  .top-bar > .con > div:nth-child(2) {
     width:calc(100% - 240px - 650px);
   }
   
