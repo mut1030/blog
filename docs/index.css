@@ -76,10 +76,12 @@ a {
   position:relative;
   white-space:nowrap;
 }
+
 .top-bar__menu-box-1 ul > li > a {
   display:block;
   white-space:nowrap;
 }
+
 .top-bar__menu-box-1 > ul > li > a {
   padding:7px 25px;
   display:block;
@@ -90,10 +92,12 @@ a {
   text-align:center;
   font-size:1rem;
 }
+
 .top-bar__menu-box-1 ul > li:hover > a {
   background-color: white;
   color: #717141;
 }
+
 .top-bar__menu-box-1 > ul > li > ul {
   display:none;
   position:absolute;
@@ -106,4 +110,21 @@ a {
 
 .top-bar__menu-box-1 > ul > li:hover > ul {
   display:block;
+}
+
+/* work-list-box 시작 */
+.work-list-box > ul > li {
+  width:25%;
+  /* 이렇게 해도 이미지 하단에 여백이 제거됩니다. */
+  /* line-height:0; */
+}
+
+/* work-list-box 끝 */
+
+.work-list-box > ul > li {
+  width:calc((100% - ( 5 - 1 ) * 10px) / 5 );
+}
+
+.work-list-box > ul > li:not(:nth-child(5n)){
+  margin-right:10px;
 }
