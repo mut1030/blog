@@ -28,6 +28,11 @@ a {
   margin-right:auto;
 }
 
+.img-box>img {
+  width: 100%;
+  display: block;
+}
+
 .inline-grid {
   font-size:0;
 }
@@ -106,4 +111,16 @@ a {
 
 .top-bar__menu-box-1 > ul > li:hover > ul {
   display:block;
+}
+
+.work-list-box > ul > li{
+  margin:10px;
+}
+
+/* work-list-box 시작 */
+.work-list-box>ul>li {
+  width: 20%;
+  margin-top:10px;
+  /* 이렇게 해도 이미지 하단에 여백이 제거됩니다. */
+  /* line-height:0; */
 }
